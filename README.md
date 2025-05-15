@@ -1,21 +1,19 @@
 # 📦 Projeto FullStack com Spring Boot HTML e Javascript 
 
-Este projeto é uma aplicação **backend** desenvolvida com **Spring Boot (Java 17)**, utilizando uma arquitetura em camadas, seguindo boas práticas de desenvolvimento e preparada para comunicação com um **frontend navegável** via **API REST**.
+Este projeto é uma aplicação **backend** desenvolvida com **Spring Boot (Java)**, utilizando uma arquitetura em camadas, seguindo boas práticas de desenvolvimento e preparada para comunicação com um **frontend navegável** via **API REST**.
 
-📚 Funcionalidades
-
-- API RESTful com endpoints para CRUD de entidades.
+📚 Funcionalidades (Backend)
+- API REST com endpoints para apenas exibir entidades. /api/v1/product
 - Integração com banco PostgreSQL usando JPA.
-- Retorno de dados paginados com suporte a filtros.
+- Retorno de dados paginados com suporte a filtros de ate 100 items por pagina.
 - Separação de responsabilidades por camadas.
 - Comunicação com frontend via requisições HTTP.
 
 📂 Estrutura de Páginas (Frontend)
-O frontend navegável permite:
-- Listar dados paginados.
-- Criar, editar e remover registros via requisições REST.
+- Listar dados paginados com botões para voltar e avançar nas paginas.
+- GET via requisições REST.
 - Interface simples de uso para testes e demonstração.
-- O frontend pode ser desenvolvido em qualquer framework como React, Angular ou até mesmo com HTML/JS puro, desde que consuma corretamente os endpoints da API REST.
+- O frontend foi desenvolvido com HTML/JS puro.
 
 ## 🚀 Tecnologias Utilizadas
 
