@@ -49,6 +49,7 @@ O frontend navegável permite:
 # Clone o repositório
 git clone https://github.com/seuusuario/seurepositorio.git
 cd seurepositorio
+./mvnw spring-boot:run
 ````
 
 Configure o arquivo application.properties:
@@ -57,11 +58,10 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/nome_banco
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
-Compile e execute o projeto:´´´
-
-./mvnw spring-boot:run
-
 ```
+
+- Compile e execute o projeto:
+  
 Acesse a API no navegador ou via ferramentas como Postman:
 
 http://localhost:8080/api/v1/product 
